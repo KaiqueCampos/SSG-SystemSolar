@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <Menu />
       <SolarSystem />
-      <Information/>
+      <Information left='none' right='2rem' />
     </div>
   )
 }

@@ -1,8 +1,13 @@
 import styles from './styles.module.scss';
 
-export default function Information() {
+type InformationProps = {
+    left: string;
+    right: string;
+}
+
+export default function Information(props: InformationProps) {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} style={{left: props?.left, right: props?.right}}>
             <div>
                 <img src='/satellite.svg' />
                 <h3>Satellite</h3>
