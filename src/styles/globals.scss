@@ -1,0 +1,41 @@
+:root{
+  --dark1: #262C3A;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url('/spaceBackground.svg') var(--dark1);
+}
+
+body, textarea, button, input{
+  font: 400 1rem 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+button, a{
+  cursor: pointer;
+}
+
+@media (max-width: 1920px){
+    html{
+      font-size: 97.5%;
+    }
+}
