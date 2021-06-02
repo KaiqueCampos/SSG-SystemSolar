@@ -1,0 +1,82 @@
+.container {
+    width: 35vw;
+    height: 100vh;
+    padding: 3rem;
+
+    background: url("/astronaut.svg") no-repeat #191622;
+    background-size: cover;
+
+    box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.25);
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    h1 {
+        letter-spacing: -0.105em;
+        color: var(--green);
+    }
+
+    p {
+        color: var(--green);
+    }
+
+    .starContainer {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+
+        .star {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            // border-bottom: 1px solid #fff;
+            border-radius: 1rem;
+
+            margin-top: 1.5rem;
+            padding-bottom: 1rem;
+            transition: all 0.4s;
+            cursor: pointer;
+
+            position: relative;
+            overflow: hidden;
+
+            &:last-child{
+                hr{
+                    display: none;
+                }
+            }
+
+            hr {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+
+            &:hover {
+                background: #1916228f;
+                filter: brightness(0.7);
+            }
+
+            img {
+                object-fit: cover;
+                width: 10rem;
+                height: 10rem;
+                filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.7));
+            }
+
+            div {
+                p {
+                    margin-top: 0.5rem;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

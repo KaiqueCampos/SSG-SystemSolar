@@ -1,0 +1,85 @@
+.container{
+    width: 65vw;
+    height: 100vh;
+
+    position: relative;
+    overflow: hidden;
+
+    img{
+        position: absolute;
+        transition: transform 0.2s;        
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        &[id='sun']{
+            width: 31rem;
+            filter: drop-shadow(5px 4px 50px rgba(228, 112, 17, 0.7));
+    
+            top: -2rem;
+            right: -9rem;
+        }
+    
+        &[id='mercury']{
+            width: 2.5rem;
+            top: 25rem;
+            right: 20rem;
+            filter: drop-shadow(-3px 4px 10px rgba(33, 113, 233, 0.7));
+        }
+    
+        &[id='venus']{
+            width: 2.7rem;
+            top: 21.5rem;
+            right: 25rem;
+            filter: drop-shadow(-3px 4px 10px rgba(224, 136, 5, 0.7));
+    
+        }
+    
+        &[id='earth']{
+            width: 4rem;
+            top: 23rem;
+            right: 30rem;
+            filter: drop-shadow(-3px 4px 10px rgba(33, 103, 233, 0.7));
+    
+        }
+    
+        &[id='mars']{
+            width: 2.6rem;
+            top: 18rem;
+            right: 37rem;
+            filter: drop-shadow(-3px 4px 10px rgba(233, 46, 33, 0.7));
+        }
+    
+        &[id='jupter']{
+            width: 15rem;
+            top: 22rem;
+            left: 25rem;
+            filter: drop-shadow(-3px 4px 10px rgba(224, 178, 92, 0.7));
+        }
+    
+        &[id='saturn']{
+            width: 15rem;
+            bottom: 15rem;
+            left: 10rem;
+            filter: drop-shadow(-3px 4px 10px rgba(224, 178, 92, 0.7));
+        }
+    
+        &[id='uranus']{
+            width: 3.8rem;
+            bottom: 25rem;
+            left: 8rem;
+            filter: drop-shadow(-3px 4px 10px rgba(57, 218, 209, 0.7));
+        }
+    
+        &[id='neptune']{
+            width: 6rem;
+            bottom: 18rem;
+            left: 2rem;
+            filter: drop-shadow(-3px 4px 10px rgba(34, 82, 214, 0.7));
+        }
+        
+    }
+
+    
+}

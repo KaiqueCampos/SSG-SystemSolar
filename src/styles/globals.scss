@@ -1,41 +1,45 @@
-:root{
-  --dark1: #262C3A;
-}
-
-body{
-  box-sizing: border-box;
+:root {
+  --dark: #262c3a;
+  --gray: #5b6a8c;
+  --green: #03ff77;
+  --pink: #fc00b5;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-  background: url('/spaceBackground.svg') var(--dark1);
+body {
+  background: url("/spaceBackground.svg") #191622;
 }
 
-body, textarea, button, input{
-  font: 400 1rem 'Montserrat', sans-serif;
+body,
+textarea,
+button,
+input {
+  font: 400 1rem "Montserrat", sans-serif;
   color: #fff;
 }
 
-h1{
-  font-size: 2rem;
+h1 {
+  font-size: 4rem;
   font-weight: 700;
 }
 
-h2{
+h2 {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-button, a{
+button,
+a {
   cursor: pointer;
 }
 
-@media (max-width: 1920px){
-    html{
-      font-size: 97.5%;
-    }
+@media (max-width: 1920px) {
+  html {
+    font-size: 97.5%;
+  }
 }
