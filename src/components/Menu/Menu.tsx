@@ -1,4 +1,5 @@
 import styles from './styles.module.scss';
+import Image from 'next/image';
 
 export default function Menu() {
     return (
@@ -13,7 +14,11 @@ export default function Menu() {
 
             <div className={styles.starContainer}>
                 <div className={styles.star}>
-                    <img src="https://sunhc.com.br/wp-content/uploads/2020/09/580b585b2edbce24c47b270f.png" />
+                    <Image
+                        src="https://sunhc.com.br/wp-content/uploads/2020/09/580b585b2edbce24c47b270f.png"
+                        width={450}
+                        height={450}
+                    />
                     <div>
                         <h2>Sun</h2>
                         <p>
@@ -21,11 +26,15 @@ export default function Menu() {
                             typesetting industry. Lorem Ipsum has been the...
                         </p>
                     </div>
-                    <hr/>
+                    <hr />
                 </div>
 
                 <div className={styles.star}>
-                    <img src="https://nineplanets.org/wp-content/uploads/2020/03/mercury.png" />
+                    <Image
+                        src="https://nineplanets.org/wp-content/uploads/2020/03/mercury.png"
+                        width={450}
+                        height={450}
+                    />
                     <div>
                         <h2>Sun</h2>
                         <p>
@@ -33,11 +42,15 @@ export default function Menu() {
                             typesetting industry. Lorem Ipsum has been the...
                         </p>
                     </div>
-                    <hr/>
+                    <hr />
                 </div>
 
                 <div className={styles.star}>
-                    <img src="https://meioambiente.culturamix.com/blog/wp-content/uploads/2010/06/46.gif" />
+                    <Image
+                        src="https://meioambiente.culturamix.com/blog/wp-content/uploads/2010/06/46.gif"
+                        width={450}
+                        height={450}
+                    />
                     <div>
                         <h2>Sun</h2>
                         <p>
@@ -45,12 +58,16 @@ export default function Menu() {
                             typesetting industry. Lorem Ipsum has been the...
                         </p>
                     </div>
-                    <hr/>
-                    
+                    <hr />
+
                 </div>
 
                 <div className={styles.star}>
-                    <img src="https://images.vectorhq.com/images/previews/7a4/planet-earth-psd-463904.png" />
+                    <Image
+                        src="https://images.vectorhq.com/images/previews/7a4/planet-earth-psd-463904.png"
+                        width={450}
+                        height={450}
+                    />
                     <div>
                         <h2>Sun</h2>
                         <p>
@@ -58,11 +75,15 @@ export default function Menu() {
                             typesetting industry. Lorem Ipsum has been the...
                         </p>
                     </div>
-                    <hr/>
+                    <hr />
                 </div>
 
                 <div className={styles.star}>
-                    <img src="https://pngimg.com/uploads/mars_planet/mars_planet_PNG38.png" />
+                    <Image
+                        src="https://pngimg.com/uploads/mars_planet/mars_planet_PNG38.png"
+                        width={450}
+                        height={450}
+                        />
                     <div>
                         <h2>Sun</h2>
                         <p>
@@ -70,7 +91,7 @@ export default function Menu() {
                             typesetting industry. Lorem Ipsum has been the...
                         </p>
                     </div>
-                    <hr/>
+                    <hr />
                 </div>
             </div>
         </div>
