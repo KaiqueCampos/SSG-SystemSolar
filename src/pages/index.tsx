@@ -1,3 +1,5 @@
+import { useContext, useEffect } from "react";
+import { AppContext, useApp } from "../contexts/appContext";
 import Information from "../components/Information/Information";
 import Menu from "../components/Menu/Menu";
 import SolarSystem from "../components/SolarSystem/SolarSystem";
@@ -15,12 +17,16 @@ type Star = {
 }
 
 type HomeProps = {
-  stars: Star[]
+  data: Star[]
 }
 
-export default function Home({ stars }: HomeProps) {
+export default function Home({ data }: HomeProps) {
 
-  stars.map(star => console.log(star.name))
+  const { getStars, stars} = useApp()
+
+  useEffect(() => {
+    getStars(data);
+  }, [])
 
   return (
     <div className={styles.container}>
@@ -36,7 +42,7 @@ export async function getStaticProps() {
   const data = await response.json()
   return {
     props: {
-      stars: data
+      data: data
     },
     revalidate: 60 * 60 * 24 //24 hours
   }

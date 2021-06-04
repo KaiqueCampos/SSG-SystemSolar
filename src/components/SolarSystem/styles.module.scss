@@ -13,7 +13,7 @@
             transform: scale(1.1);
         }
 
-        &[id='sun']{
+        &[id='Sun']{
             width: 31rem;
             filter: drop-shadow(5px 4px 50px rgba(228, 112, 17, 0.7));
     
@@ -21,14 +21,14 @@
             right: -9rem;
         }
     
-        &[id='mercury']{
+        &[id='Mercury']{
             width: 2.5rem;
             top: 25rem;
             right: 20rem;
             filter: drop-shadow(-3px 4px 10px rgba(33, 113, 233, 0.7));
         }
     
-        &[id='venus']{
+        &[id='Venus']{
             width: 2.7rem;
             top: 21.5rem;
             right: 25rem;
@@ -36,7 +36,7 @@
     
         }
     
-        &[id='earth']{
+        &[id='Earth']{
             width: 4rem;
             top: 23rem;
             right: 30rem;
@@ -44,35 +44,35 @@
     
         }
     
-        &[id='mars']{
+        &[id='Mars']{
             width: 2.6rem;
             top: 18rem;
             right: 37rem;
             filter: drop-shadow(-3px 4px 10px rgba(233, 46, 33, 0.7));
         }
     
-        &[id='jupter']{
+        &[id='Jupter']{
             width: 15rem;
             top: 22rem;
             left: 25rem;
             filter: drop-shadow(-3px 4px 10px rgba(224, 178, 92, 0.7));
         }
     
-        &[id='saturn']{
+        &[id='Saturn']{
             width: 15rem;
             bottom: 15rem;
             left: 10rem;
             filter: drop-shadow(-3px 4px 10px rgba(224, 178, 92, 0.7));
         }
     
-        &[id='uranus']{
+        &[id='Uranus']{
             width: 3.8rem;
             bottom: 25rem;
             left: 8rem;
             filter: drop-shadow(-3px 4px 10px rgba(57, 218, 209, 0.7));
         }
     
-        &[id='neptune']{
+        &[id='Neptune']{
             width: 6rem;
             bottom: 18rem;
             left: 2rem;
@@ -80,6 +80,4 @@
         }
         
     }
-
-    
 }
