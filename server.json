@@ -8,7 +8,8 @@
             "description": "The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy mainly as visible light and infrared radiation.",
             "temperature": "15 million degrees Celsius in its core, steadily decreases with distance from the core, falling to 6000°C at its 'surface'.",
             "satellites": "3000 artificial satellites.",
-            "moons": "214 natural satellites, 8 planets and 5 dwarf planets."
+            "moons": "214 natural satellites, 8 planets and 5 dwarf planets.",
+            "color": "linear-gradient(180deg, rgba(73, 74, 14, 0.3) 0%, rgba(84, 67, 22, 0.82) 100%)"
         },
         {
             "name": "Mercury",
@@ -18,7 +19,8 @@
             "description": "Mercury is the smallest planet in our solar system. ... Along with Venus, Earth, and Mars, Mercury is one of the rocky planets. It has a solid surface that is covered with craters. It has no atmosphere, and it doesn't have any moons.",
             "temperature": "Mercury's temperature can go between -173°C at night and 427°C at day.",
             "satellites": "Mercury no has satellites",
-            "moons": "Mercury no has natural satellites"
+            "moons": "Mercury no has natural satellites",
+            "color": "linear-gradient(180deg, rgba(74, 57, 14, 0.3) 0%, rgba(32, 68, 102, 0.82) 100%)"
         },
         {
             "name": "Venus",
@@ -28,7 +30,8 @@
             "description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
             "temperature": "Venus's temperature is 465°C",
             "satellites": "Venus no has satellites",
-            "moons": "Venus no has natural satellites"
+            "moons": "Venus no has natural satellites",
+            "color": "linear-gradient(180deg, rgba(74, 57, 14, 0.3) 0%, rgba(84, 44, 22, 0.82) 100%)"
         },
         {
             "name": "Earth",
@@ -38,7 +41,8 @@
             "description": "Our home planet Earth is a rocky, terrestrial planet. It has a solid and active surface with mountains, valleys, canyons, plains and so much more. Earth is special because it is an ocean planet. Water covers 70 percent of Earth's surface.",
             "temperature": "Earth's temperature is 14.5°C",
             "satellites": "Earth has 3000 artificial satellites",
-            "moons": "Earth has 1 natural satellite: the Moon"
+            "moons": "Earth has 1 natural satellite: the Moon",
+            "color": "linear-gradient(180deg, rgba(14, 38, 74, 0.3) 0%, rgba(22, 35, 84, 0.82) 100%)"
         },
         {
             "name": "Mars",
@@ -48,7 +52,8 @@
             "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. ... Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.",
             "temperature": "Mars's temperature can go between -68°C and 20°C",
             "satellites": "Mars has 0 artificial satellites",
-            "moons": "Mars has 2 natural satellite"
+            "moons": "Mars has 2 natural satellite",
+            "color": "linear-gradient(180deg, rgba(74, 14, 14, 0.3) 0%, rgba(85, 24, 24, 0.82) 100%)"
         },
         {
             "name": "Jupter",
@@ -57,7 +62,8 @@
             "image": "https://www.solarsystemscope.com/spacepedia/images/handbook/renders/jupiter.png",
             "description": "Jupiter is called a gas giant planet. Its atmosphere is made up of mostly hydrogen gas and helium gas, like the sun. The planet is covered in thick red, brown, yellow and white clouds. The clouds make the planet look like it has stripes.",
             "satellites": "Jupiter has 0 artificial satellites",
-            "moons": "Jupiter has 79 natural satellite"
+            "moons": "Jupiter has 79 natural satellite",
+            "color": "linear-gradient(180deg, rgba(157, 135, 79, 0.3) 0%, rgba(126, 102, 54, 0.82) 100%)"
         },
         {
             "name": "Saturn",
@@ -67,7 +73,8 @@
             "description": "Saturn is a gas giant made up mostly of hydrogen and helium. Saturn's volume is greater than 760 Earths, and it is the second most massive planet in the solar system, about 95 times Earth's mass. The Ringed Planet is the least dense of all the planets, and is the only one less dense than water",
             "temperature": "Saturn's temperature is -178°C",
             "satellites": "Saturn has 0 artificial satellites",
-            "moons": "Saturn has 82 natural satellite"
+            "moons": "Saturn has 82 natural satellite",
+            "color": "linear-gradient(180deg, rgba(157, 135, 79, 0.3) 0%, rgba(126, 102, 54, 0.82) 100%)"
         },
         {
             "name": "Uranus",
@@ -77,7 +84,8 @@
             "description": "Uranus is known as the “sideways planet” because it rotates on its side. Uranus was discovered in 1781 by William Herschel. Uranus was the first planet found using a telescope. Uranus is an Ice Giant planet and nearly four times larger than Earth.",
             "temperature": "Uranus's temperature is -195°C",
             "satellites": "Uranus has 0 artificial satellites",
-            "moons": "Uranus has 27 natural satellite"
+            "moons": "Uranus has 27 natural satellite",
+            "color":"linear-gradient(180deg, rgba(79, 148, 157, 0.3) 0%, rgba(32, 87, 99, 0.82) 100%)"
         },
         {
             "name": "Neptune",
@@ -87,7 +95,8 @@
             "description": "Neptune is dark, cold, and very windy. It's the last of the planets in our solar system. It's more than 30 times as far from the Sun as Earth is. Neptune is very similar to Uranus.",
             "temperature": "Neptune's temperature is -201°C",
             "satellites": "Neptune has 0 artificial satellites",
-            "moons": "Neptune has 14 natural satellite"
+            "moons": "Neptune has 14 natural satellite",
+            "color":"linear-gradient(180deg, rgba(71, 90, 191, 0.3) 0%, rgba(17, 20, 79, 0.82) 100%)"
         }
     ]
 }
