@@ -1,8 +1,9 @@
-import { useContext, useEffect } from "react";
-import { AppContext, useApp } from "../contexts/appContext";
+import { useEffect } from "react";
 import Information from "../components/Information/Information";
 import Menu from "../components/Menu/Menu";
 import SolarSystem from "../components/SolarSystem/SolarSystem";
+import { useApp } from "../contexts/appContext";
+import { api } from "../services/Api";
 import styles from '../styles/app.module.scss';
 
 type Star = {
@@ -22,7 +23,7 @@ type HomeProps = {
 
 export default function Home({ data }: HomeProps) {
 
-  const { getStars, stars} = useApp()
+  const { getStars } = useApp()
 
   useEffect(() => {
     getStars(data);
@@ -38,8 +39,7 @@ export default function Home({ data }: HomeProps) {
 }
 
 export async function getStaticProps() {
-  const response = await fetch('http://localhost:3333/stars');
-  const data = await response.json()
+  const { data } = await api.get('stars');
   return {
     props: {
       data: data
