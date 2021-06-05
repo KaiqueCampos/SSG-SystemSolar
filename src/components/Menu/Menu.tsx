@@ -23,7 +23,7 @@ export default function Menu() {
                 {stars.map(star => {
                     return (
                         <Link href={`/stars/${star.id}`}>
-                            <div className={styles.star} key={star.name}>
+                            <div className={styles.star} key={star.id}>
                                 <Image
                                     src={star.image}
                                     width={450}

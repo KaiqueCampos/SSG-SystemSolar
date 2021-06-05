@@ -3,6 +3,7 @@ import styles from '../../styles/app.module.scss';
 import Link from 'next/link';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { api } from '../../services/Api';
+import StarLines from '../../components/starLines/starLines';
 
 type Star = {
     id: string;
@@ -46,10 +47,7 @@ export default function Star({star} : StarsProps) {
 
             </div>
 
-
-            <div className={styles.lineBackground} />
-            <div className={styles.lineBackground} />
-            <div className={styles.lineBackground} />
+            <StarLines color={star.color}/>
 
             <img className={styles.star} src={star.image} />
         </div>

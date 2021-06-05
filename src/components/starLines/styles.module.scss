@@ -1,0 +1,17 @@
+.lineBackground {
+    position: absolute;
+    width: 4.5rem;
+    height: 110rem;
+    background: linear-gradient(180deg, rgba(74, 14, 14, 0.3) 0%, rgba(85, 24, 24, 0.82) 100%);
+    transform: rotate(-45deg);
+
+    &:nth-child(2) {
+        right: 35rem;
+    }
+    &:nth-child(3) {
+        right: 27rem;
+    }
+    &:nth-child(4) {
+        right: 19rem;
+    }
+}
