@@ -1,6 +1,7 @@
 {
     "stars": [
         {
+            "id": "Sun",
             "name": "Sun",
             "diameter": "1.392.700Km",
             "distanceFromSun": "This is Sun!",
@@ -12,21 +13,23 @@
             "color": "linear-gradient(180deg, rgba(73, 74, 14, 0.3) 0%, rgba(84, 67, 22, 0.82) 100%)"
         },
         {
+            "id": "Mercury",
             "name": "Mercury",
             "diameter": "4.879,4Km",
             "distanceFromSun": "58.000.000Km",
             "image": "https://nineplanets.org/wp-content/uploads/2020/03/mercury.png",
-            "description": "Mercury is the smallest planet in our solar system. ... Along with Venus, Earth, and Mars, Mercury is one of the rocky planets. It has a solid surface that is covered with craters. It has no atmosphere, and it doesn't have any moons.",
+            "description": "Mercury is the smallest planet in our solar system. Along with Venus, Earth, and Mars, Mercury is one of the rocky planets. It has a solid surface that is covered with craters. It has no atmosphere, and it doesn't have any moons.",
             "temperature": "Mercury's temperature can go between -173°C at night and 427°C at day.",
             "satellites": "Mercury no has satellites",
             "moons": "Mercury no has natural satellites",
             "color": "linear-gradient(180deg, rgba(74, 57, 14, 0.3) 0%, rgba(32, 68, 102, 0.82) 100%)"
         },
         {
+            "id": "Venus",
             "name": "Venus",
             "diameter": "12.104Km",
             "distanceFromSun": "67.000.000Km",
-            "image": "https://meioambiente.culturamix.com/blog/wp-content/uploads/2010/06/46.gif",
+            "image": "https://www.pngkit.com/png/full/272-2720089_free-download-venus-planet-clipart-planet-betelgeuse-venus.png",
             "description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
             "temperature": "Venus's temperature is 465°C",
             "satellites": "Venus no has satellites",
@@ -34,6 +37,7 @@
             "color": "linear-gradient(180deg, rgba(74, 57, 14, 0.3) 0%, rgba(84, 44, 22, 0.82) 100%)"
         },
         {
+            "id": "Earth",
             "name": "Earth",
             "diameter": "12.742Km",
             "distanceFromSun": "146.600.000Km",
@@ -45,6 +49,7 @@
             "color": "linear-gradient(180deg, rgba(14, 38, 74, 0.3) 0%, rgba(22, 35, 84, 0.82) 100%)"
         },
         {
+            "id": "Mars",
             "name": "Mars",
             "diameter": "6.779Km",
             "distanceFromSun": "149.600.000Km",
@@ -56,6 +61,7 @@
             "color": "linear-gradient(180deg, rgba(74, 14, 14, 0.3) 0%, rgba(85, 24, 24, 0.82) 100%)"
         },
         {
+            "id": "Jupter",
             "name": "Jupter",
             "diameter": "139.820Km",
             "distanceFromSun": "778.000.000Km",
@@ -66,6 +72,7 @@
             "color": "linear-gradient(180deg, rgba(157, 135, 79, 0.3) 0%, rgba(126, 102, 54, 0.82) 100%)"
         },
         {
+            "id": "Saturn",
             "name": "Saturn",
             "diameter": "58.232Km",
             "distanceFromSun": "1.400.000.000Km",
@@ -77,6 +84,7 @@
             "color": "linear-gradient(180deg, rgba(157, 135, 79, 0.3) 0%, rgba(126, 102, 54, 0.82) 100%)"
         },
         {
+            "id": "Uranus",
             "name": "Uranus",
             "diameter": "50.724Km",
             "distanceFromSun": "2.900.000.000Km",
@@ -85,9 +93,10 @@
             "temperature": "Uranus's temperature is -195°C",
             "satellites": "Uranus has 0 artificial satellites",
             "moons": "Uranus has 27 natural satellite",
-            "color":"linear-gradient(180deg, rgba(79, 148, 157, 0.3) 0%, rgba(32, 87, 99, 0.82) 100%)"
+            "color": "linear-gradient(180deg, rgba(79, 148, 157, 0.3) 0%, rgba(32, 87, 99, 0.82) 100%)"
         },
         {
+            "id": "Neptune",
             "name": "Neptune",
             "diameter": "49.244Km",
             "distanceFromSun": "4.500.000.000Km",
@@ -96,7 +105,7 @@
             "temperature": "Neptune's temperature is -201°C",
             "satellites": "Neptune has 0 artificial satellites",
             "moons": "Neptune has 14 natural satellite",
-            "color":"linear-gradient(180deg, rgba(71, 90, 191, 0.3) 0%, rgba(17, 20, 79, 0.82) 100%)"
+            "color": "linear-gradient(180deg, rgba(71, 90, 191, 0.3) 0%, rgba(17, 20, 79, 0.82) 100%)"
         }
     ]
 }

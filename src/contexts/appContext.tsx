@@ -1,6 +1,7 @@
 import { createContext, ReactNode, useContext, useState } from 'react'
 
 type Star = {
+    id: string;
     name: string;
     diameter: string;
     distanceFromSun: string;
@@ -9,6 +10,7 @@ type Star = {
     satellites: string;
     moons: string;
     color: string;
+    temperature: string
 }
 
 type AppContextData = {

@@ -2,11 +2,12 @@ import styles from './styles.module.scss';
 import Image from 'next/image';
 import { useApp } from '../../contexts/appContext';
 import { useEffect } from 'react';
+import Link from 'next/link'
 
 export default function Menu() {
 
     const { stars } = useApp();
-    
+
     return (
         <div className={styles.container}>
             <h1> The Solar System </h1>
@@ -21,19 +22,21 @@ export default function Menu() {
 
                 {stars.map(star => {
                     return (
-                        <div className={styles.star} key={star.name}>
-                            <Image
-                                src={star.image}
-                                width={450}
-                                height={450}
-                                objectFit='cover'
-                            />
-                            <div>
-                                <h2>{star.name}</h2>
-                                <p>{`${star.description.substring(0,95)}...`}</p>
+                        <Link href={`/stars/${star.id}`}>
+                            <div className={styles.star} key={star.name}>
+                                <Image
+                                    src={star.image}
+                                    width={450}
+                                    height={450}
+                                    objectFit='cover'
+                                />
+                                <div>
+                                    <h2>{star.name}</h2>
+                                    <p>{`${star.description.substring(0, 95)}...`}</p>
+                                </div>
+                                <hr />
                             </div>
-                            <hr />
-                        </div>
+                        </Link>
                     )
                 })}
 

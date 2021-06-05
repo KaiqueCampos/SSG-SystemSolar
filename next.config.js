@@ -3,10 +3,11 @@ module.exports = {
         domains: [
             'sunhc.com.br',
             'nineplanets.org',
-            'meioambiente.culturamix.com',
             'images.vectorhq.com',
             'pngimg.com',
-            'www.solarsystemscope.com'
+            'www.solarsystemscope.com',
+            'www.pngkit.com',
+            'terminalroot.com.br'
         ],
     },
 }

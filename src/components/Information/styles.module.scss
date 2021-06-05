@@ -12,6 +12,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    padding: 1rem 2.5rem;
+
 
     div{
         display: flex;
@@ -20,5 +22,18 @@
         justify-content: center;
         text-align: center;
         gap: 0.5rem;
+
+        p{
+            font-size: 0.85rem;
+
+            @media (max-width: 1450px){
+                font-size: 0.7rem;
+            }
+
+            @media (max-width: 1200px){
+                font-size: 0.68rem;
+            }
+        }
     }
 }
+

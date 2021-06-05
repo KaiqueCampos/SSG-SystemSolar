@@ -4,11 +4,14 @@ import Image from 'next/image';
 type InformationProps = {
     left: string;
     right: string;
+    satallites: string;
+    moon: string;
+    temperature: string;
 }
 
 export default function Information(props: InformationProps) {
     return (
-        <div className={styles.container} style={{ left: props?.left, right: props?.right }}>
+        <div className={styles.container} style={{ left: props?.left, right: props?.right}}>
             <div>
                 <Image
                     src='/satellite.svg'
@@ -17,9 +20,7 @@ export default function Information(props: InformationProps) {
                     width={70}
                 />
                 <h3>Satellite</h3>
-                <p>
-                    Lorem Ipsum is simply dummy text of the...
-                </p>
+                <p>{props.satallites}</p>
             </div>
 
             <div>
@@ -30,9 +31,7 @@ export default function Information(props: InformationProps) {
                     objectFit='cover'
                 />
                 <h3>Moon's</h3>
-                <p>
-                    Lorem Ipsum is simply dummy text of the...
-                </p>
+                <p>{props.moon}</p>
             </div>
 
             <div>
@@ -43,9 +42,7 @@ export default function Information(props: InformationProps) {
                     objectFit='cover'
                 />
                 <h3>Temperature</h3>
-                <p>
-                    Lorem Ipsum is simply dummy text of the...
-                </p>
+                <p>{props.temperature}</p>
             </div>
         </div>
     )
