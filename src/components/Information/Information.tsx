@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
+import animate from '../../styles/animate.module.scss'
 
 type InformationProps = {
     left: string;
@@ -11,7 +12,7 @@ type InformationProps = {
 
 export default function Information(props: InformationProps) {
     return (
-        <div className={styles.container} style={{ left: props?.left, right: props?.right}}>
+        <div className={`${styles.container} ${animate.upSlow}`} style={{ left: props?.left, right: props?.right}}>
             <div>
                 <Image
                     src='/satellite.svg'

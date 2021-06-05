@@ -1,9 +1,10 @@
-import Information from '../../components/Information/Information';
-import styles from '../../styles/app.module.scss';
-import Link from 'next/link';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { api } from '../../services/Api';
-import StarLines from '../../components/starLines/starLines';
+import Information from '../../components/Information/Information';
+import Link from 'next/link';
+import styles from '../../styles/app.module.scss';
+import StarLines from '../../components/StarLines/StarLines';
+import animate from '../../styles/animate.module.scss'
 
 type Star = {
     id: string;
@@ -19,10 +20,10 @@ type Star = {
 }
 
 type StarsProps = {
-    star : Star
+    star: Star
 }
 
-export default function Star({star} : StarsProps) {
+export default function Star({ star }: StarsProps) {
     return (
         <div className={styles.container}>
             <div className={styles.informations}>
@@ -30,12 +31,12 @@ export default function Star({star} : StarsProps) {
                     <img id='return' src='/return.svg' alt='return to HomePage' />
                 </Link>
 
-                <h1>{star.name}</h1>
+                <h1 className={animate.up}>{star.name}</h1>
 
-                <p id='planetText'>{star.description}</p>
+                <p id='planetText' className={animate.up}>{star.description}</p>
 
-                <h2>Distance from Sun</h2>
-                <p id='planetText'>{star.distanceFromSun}</p>
+                <h2 className={animate.up}>Distance from Sun</h2>
+                <p id='planetText' className={animate.up}>{star.distanceFromSun}</p>
 
                 <Information
                     left='none'
@@ -47,9 +48,9 @@ export default function Star({star} : StarsProps) {
 
             </div>
 
-            <StarLines color={star.color}/>
+            <StarLines color={star.color} />
 
-            <img className={styles.star} src={star.image} />
+            <img className={`${styles.star} ${animate.upMoreSlow}`} src={star.image} />
         </div>
     )
 }

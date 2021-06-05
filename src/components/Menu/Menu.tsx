@@ -1,15 +1,14 @@
-import styles from './styles.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useApp } from '../../contexts/appContext';
-import { useEffect } from 'react';
-import Link from 'next/link'
+import styles from './styles.module.scss';
 
 export default function Menu() {
 
     const { stars } = useApp();
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} >
             <h1> The Solar System </h1>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and
