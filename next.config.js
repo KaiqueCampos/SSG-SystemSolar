@@ -7,7 +7,8 @@ module.exports = {
             'pngimg.com',
             'www.solarsystemscope.com',
             'www.pngkit.com',
-            'terminalroot.com.br'
+            'terminalroot.com.br',
+            'images.vectorhq.com'
         ],
     },
 }
