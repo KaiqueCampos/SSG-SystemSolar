@@ -1,4 +1,4 @@
-.container{
+.container {
     position: absolute;
     bottom: 2rem;
 
@@ -16,11 +16,11 @@
 
     z-index: 450;
 
-    img{
+    img {
         width: 5rem;
     }
 
-    div{
+    div {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -28,16 +28,26 @@
         text-align: center;
         gap: 0.5rem;
 
-        p{
+        p {
             font-size: 0.85rem;
 
-            @media (max-width: 1450px){
+            @media (max-width: 1450px) {
                 font-size: 0.7rem;
             }
 
-            @media (max-width: 1200px){
+            @media (max-width: 1200px) {
                 font-size: 0.68rem;
             }
+        }
+    }
+}
+
+@media (max-width: 525px) {
+    .container {
+        width: 90%;
+
+        img {
+            width: 4rem;
         }
     }
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useApp } from '../../contexts/appContext';
 import styles from './styles.module.scss';
-import animate from  '../../styles/animate.module.scss'
+import animate from '../../styles/animate.module.scss'
 
 export default function SolarSystem() {
 
@@ -24,6 +24,7 @@ export default function SolarSystem() {
 
     return (
         <div className={`${styles.container} ${animate.upMoreSlow}`}>
+
             {stars.map(star => {
                 return (
                     <div
@@ -44,6 +45,6 @@ export default function SolarSystem() {
                     </div>
                 )
             })}
-        </div>
+        </div >
     )
 }

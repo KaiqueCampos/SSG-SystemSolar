@@ -34,11 +34,11 @@
             filter: drop-shadow(5px 4px 50px rgba(228, 112, 17, 0.7));
 
             top: -2rem;
-            right: -9.5rem;
+            left: 65rem;
 
             .legend {
                 position: absolute;
-                right: 10.5rem;
+                left: 14.5rem;
                 bottom: 0;
             }
         }
@@ -46,61 +46,63 @@
         &[id="Mercury"] {
             width: 2.5rem;
             top: 25rem;
-            right: 17.5rem;
+            left: 66rem;
             filter: drop-shadow(-3px 4px 10px rgba(33, 113, 233, 0.7));
-
-            // .legend{
-            //     transform: translateX(-100%);
-            // }
         }
 
         &[id="Venus"] {
             width: 2.7rem;
             top: 21.5rem;
-            right: 23.5rem;
+            left: 60rem;
             filter: drop-shadow(-3px 4px 10px rgba(224, 136, 5, 0.7));
         }
 
         &[id="Earth"] {
             width: 4rem;
             top: 23rem;
-            right: 29rem;
+            left: 53rem;
             filter: drop-shadow(-3px 4px 10px rgba(33, 103, 233, 0.7));
         }
 
         &[id="Mars"] {
             width: 2.6rem;
             top: 18rem;
-            right: 36rem;
+            left: 48rem;
             filter: drop-shadow(-3px 4px 10px rgba(233, 46, 33, 0.7));
         }
 
         &[id="Jupter"] {
             width: 15rem;
             top: 22rem;
-            right: 38rem;
+            left: 33rem;
             filter: drop-shadow(-3px 4px 10px rgba(224, 178, 92, 0.7));
         }
 
         &[id="Saturn"] {
             width: 15rem;
             top: 36.5rem;
-            right: 52rem;
+            left: 20rem;
             filter: drop-shadow(-3px 4px 10px rgba(224, 178, 92, 0.7));
         }
 
         &[id="Uranus"] {
             width: 3.8rem;
             top: 33rem;
-            right: 64rem;
+            left: 18rem;
             filter: drop-shadow(-3px 4px 10px rgba(57, 218, 209, 0.7));
         }
 
         &[id="Neptune"] {
             width: 6rem;
             top: 37rem;
-            right: 70rem;
+            left: 10rem;
             filter: drop-shadow(-3px 4px 10px rgba(34, 82, 214, 0.7));
         }
+    }
+}
+
+@media (max-width: 750px) {
+    .container{
+        overflow: auto;
     }
 }
