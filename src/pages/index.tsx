@@ -41,6 +41,7 @@ export default function Home({ data }: HomeProps) {
         satallites='There are 3000 artificial satellites in the solar system, all of them are in the orbit of planet Earth'
         moon='Currently, 214 natural satellites are known to orbit the celestial bodies of the solar system.'
         temperature="The average temperature of the solar system is -201°C (Neptune) and 6000°C (solar surface)"
+        width={''}
       />
     </div>
   )

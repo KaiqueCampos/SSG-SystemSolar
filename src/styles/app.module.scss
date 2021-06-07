@@ -19,11 +19,13 @@
         position: relative;
 
         img[id="return"] {
+            width: 5rem;
             position: absolute;
             top: 2rem;
             left: 4rem;
             transition: all 0.2s;
             cursor: pointer;
+            z-index: 5;
 
             &:hover {
                 transform: scale(1.07);
@@ -34,32 +36,94 @@
         h1 {
             color: var(--green);
             margin-bottom: 1.5rem;
+            z-index: 10;
         }
 
         h2 {
             margin-top: 2rem;
             margin-bottom: 0.5rem;
             color: var(--pink);
+            z-index: 10;
         }
 
         p[id="planetText"] {
             text-align: center;
             width: 70%;
             font-size: 1.3rem;
+            z-index: 3;
 
             &:nth-child(5) {
                 margin-bottom: 4rem;
             }
         }
     }
-    
+
     .star {
         width: 75rem;
-        bottom: 10rem;
         position: absolute;
         object-fit: cover;
+        z-index: 4;
 
-        left: 65rem;
+        right: -10rem;
+        bottom: 10rem;
         filter: drop-shadow(-20px 50px 15px rgba(0, 0, 0, 0.692));
+    }
+}
+
+@media (max-width: 1050px) {
+    .container {
+        .star {
+            width: 60rem;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        .informations {
+            width: 100vw;
+            height: 100vh;
+
+            h1 {
+                margin-top: 10rem;
+            }
+        }
+
+        .star {
+            width: 45rem;
+            top: -8rem;
+            right: -10rem;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        .star {
+            width: 43rem;
+            top: -8rem;
+            right: -10rem;
+        }
+    }
+}
+
+
+@media (max-width: 435px) {
+    .container {
+        .star {
+            width: 40rem;
+            top: -8rem;
+            right: -10rem;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .container {
+        .star {
+            width: 35rem;
+            top: -8rem;
+            right: -10rem;
+        }
     }
 }

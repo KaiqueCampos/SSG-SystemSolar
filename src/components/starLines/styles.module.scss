@@ -1,9 +1,10 @@
 .lineBackground {
     position: absolute;
     width: 4.5rem;
-    height: 110rem;
+    height: 200vw;
     background: linear-gradient(180deg, rgba(74, 14, 14, 0.3) 0%, rgba(85, 24, 24, 0.82) 100%);
     transform: rotate(-45deg);
+    z-index: 1;
 
     &:nth-child(2) {
         right: 35rem;
@@ -15,3 +16,16 @@
         right: 19rem;
     }
 }
+
+@media (max-width: 1150px) {
+    .lineBackground:nth-child(2) {
+        right: 30rem;
+    }
+    .lineBackground:nth-child(3) {
+        right: 22rem;
+    }
+    .lineBackground:nth-child(4) {
+        right: 14rem;
+    }
+}
+

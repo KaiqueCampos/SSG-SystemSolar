@@ -44,6 +44,7 @@ export default function Star({ star }: StarsProps) {
                     satallites={star.satellites}
                     moon={star.moons}
                     temperature={star.temperature}
+                    width={'90%'}
                 />
 
             </div>

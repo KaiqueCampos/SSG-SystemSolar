@@ -8,11 +8,12 @@ type InformationProps = {
     satallites: string;
     moon: string;
     temperature: string;
+    width: string;
 }
 
 export default function Information(props: InformationProps) {
     return (
-        <div className={`${styles.container} ${animate.upSlow}`} style={{ left: props?.left, right: props?.right}}>
+        <div className={`${styles.container} ${animate.upSlow}`} style={{width: props?.width, left: props?.left, right: props?.right}}>
             <div>
                 <Image
                     src='/satellite.svg'
