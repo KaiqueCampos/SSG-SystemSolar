@@ -18,7 +18,7 @@ $ cd SSG-SystemSolar
 ```
 **Installing dependencies**
 ```
-$ yarn
+$ yarn add
 
 ```
 
